@@ -247,17 +247,17 @@ select {
  */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   select {
-    padding: 1px 1.571em 1px 0.5em; /* LTR */
+    /*padding: 1px 1.571em 1px 0.5em;*/ /* LTR */ /*GLT*/
+    padding: 0.3em 1.571em 0.3em 0.5em;
     cursor: pointer;
     -webkit-transition: all 0.1s;
     transition: all 0.1s;
     border: 1px solid #a6a6a6;
     border-radius: 0.143em;
     background:
-      url(../../../../misc/icons/333333/caret-down.svg) no-repeat 99% 63%,
-      -webkit-linear-gradient(top, #f6f6f3, #e7e7df); /* LTR */
-
-    text-shadow: 0 1px hsla(0, 0%, 100%, 0.6);
+      url(../../../../misc/icons/333333/caret-down.svg) no-repeat 99% 63%/*,
+      -webkit-linear-gradient(top, #f6f6f3, #e7e7df)*/; /* LTR */ /*GLT*/
+    /*text-shadow: 0 1px hsla(0, 0%, 100%, 0.6);*/ /*GLT*/
     font-size: 0.875rem;
     -webkit-appearance: none;
     -webkit-font-smoothing: antialiased;
@@ -269,9 +269,12 @@ select {
   select:focus,
   select:hover {
     color: #1a1a1a;
+    /*background-image:
+      url(../../../../misc/icons/333333/caret-down.svg),
+      -webkit-linear-gradient(top, #fcfcfa, #e9e9dd);*/ /*GLT*/
     background-image:
       url(../../../../misc/icons/333333/caret-down.svg),
-      -webkit-linear-gradient(top, #fcfcfa, #e9e9dd);
+      -webkit-linear-gradient(top, #eee, #eee);
   }
   select:hover {
     box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.125);

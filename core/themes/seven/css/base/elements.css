@@ -4,12 +4,14 @@
 body {
   color: #333;
   background: #fff;
-  font: normal 81.3%/1.538em "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Lucida Sans", sans-serif;
+  /*font: normal 81.3%/1.538em "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Lucida Sans", sans-serif;*/ /*GLT*/
+  font: normal 86.3%/1.538em "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Lucida Sans", sans-serif;
 }
 a,
 .link {
   text-decoration: none;
-  color: #0074bd;
+  /*color: #0074bd;*/
+  color: #003A8D;
 }
 a:hover,
 .link:hover,

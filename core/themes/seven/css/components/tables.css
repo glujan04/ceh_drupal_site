@@ -132,6 +132,12 @@ th.select-all {
   margin-bottom: 1.2em;
 }
 
+/*inicio: GLT*/
+th.priority-medium {
+  width: 69%;
+}
+/*fin: GLT*/
+
 /**
  * Responsive tables.
  */

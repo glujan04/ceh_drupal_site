@@ -4,5 +4,6 @@
 .content-header {
   overflow: hidden;
   padding: 24px 0 0;
-  background-color: #e0e0d8;
+  /*background-color: #e0e0d8;*/ /*GLT*/
+  background-color: #003A8D;
 }
