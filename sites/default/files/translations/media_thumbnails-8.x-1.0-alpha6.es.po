@@ -1,0 +1,28 @@
+# Spanish translation of Media Thumbnails (8.x-1.0-alpha6)
+# Copyright (c) 2020 by the Spanish translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Thumbnails (8.x-1.0-alpha6)\n"
+"POT-Creation-Date: 2020-06-16 14:50+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Refresh"
+msgstr "Actualizar"
+msgid "Configure"
+msgstr "Configurar"
+msgid "Media"
+msgstr "Multimedia"
+msgid "Background color"
+msgstr "Color de fondo"
+msgid "Please wait..."
+msgstr "Espere, por favor..."
+msgid "About"
+msgstr "Acerca de"
+msgid "Thumbnail width"
+msgstr "Ancho de miniatura"
